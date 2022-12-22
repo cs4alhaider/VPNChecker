@@ -64,11 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				CBFBDBBA2953045A003340C1 /* VPNCheckerApp.swift */,
-				CBFBDBD5295482B3003340C1 /* VPNCheck.swift */,
-				CBFBDBBC2953045A003340C1 /* ContentView.swift */,
-				CBFBDBD129548278003340C1 /* ProtocolDetailView.swift */,
-				CBFBDBD32954829B003340C1 /* VPNListView.swift */,
-				CBFBDBCF29548138003340C1 /* ActivityView.swift */,
+				CBFBDBD8295483E4003340C1 /* BU Logic */,
+				CBFBDBD7295483CB003340C1 /* Views (UI) */,
 				CBFBDBCB295321CA003340C1 /* Defaults+Keys.swift */,
 				CBFBDBBE2953045C003340C1 /* Assets.xcassets */,
 				CBFBDBC02953045C003340C1 /* Preview Content */,
@@ -82,6 +79,25 @@
 				CBFBDBC12953045C003340C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBFBDBD7295483CB003340C1 /* Views (UI) */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBDBBC2953045A003340C1 /* ContentView.swift */,
+				CBFBDBD129548278003340C1 /* ProtocolDetailView.swift */,
+				CBFBDBD32954829B003340C1 /* VPNListView.swift */,
+				CBFBDBCF29548138003340C1 /* ActivityView.swift */,
+			);
+			path = "Views (UI)";
+			sourceTree = "<group>";
+		};
+		CBFBDBD8295483E4003340C1 /* BU Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CBFBDBD5295482B3003340C1 /* VPNCheck.swift */,
+			);
+			path = "BU Logic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
