@@ -2,7 +2,7 @@
 //  VPNCheckerApp.swift
 //  VPNChecker
 //
-//  Created by 16Root19 on 21/12/2022.
+//  Created by Abdullah Alhaider on 21/12/2022.
 //
 
 import SwiftUI

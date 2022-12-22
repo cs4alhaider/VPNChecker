@@ -11,6 +11,12 @@
 		CBFBDBBD2953045A003340C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBDBBC2953045A003340C1 /* ContentView.swift */; };
 		CBFBDBBF2953045C003340C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFBDBBE2953045C003340C1 /* Assets.xcassets */; };
 		CBFBDBC22953045C003340C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFBDBC12953045C003340C1 /* Preview Assets.xcassets */; };
+		CBFBDBCA295321C0003340C1 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = CBFBDBC9295321C0003340C1 /* Defaults */; };
+		CBFBDBCC295321CA003340C1 /* Defaults+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBDBCB295321CA003340C1 /* Defaults+Keys.swift */; };
+		CBFBDBD029548138003340C1 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBDBCF29548138003340C1 /* ActivityView.swift */; };
+		CBFBDBD229548278003340C1 /* ProtocolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBDBD129548278003340C1 /* ProtocolDetailView.swift */; };
+		CBFBDBD42954829B003340C1 /* VPNListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBDBD32954829B003340C1 /* VPNListView.swift */; };
+		CBFBDBD6295482B3003340C1 /* VPNCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFBDBD5295482B3003340C1 /* VPNCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,11 @@
 		CBFBDBBC2953045A003340C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBFBDBBE2953045C003340C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFBDBC12953045C003340C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBFBDBCB295321CA003340C1 /* Defaults+Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Defaults+Keys.swift"; sourceTree = "<group>"; };
+		CBFBDBCF29548138003340C1 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		CBFBDBD129548278003340C1 /* ProtocolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDetailView.swift; sourceTree = "<group>"; };
+		CBFBDBD32954829B003340C1 /* VPNListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNListView.swift; sourceTree = "<group>"; };
+		CBFBDBD5295482B3003340C1 /* VPNCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFBDBCA295321C0003340C1 /* Defaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				CBFBDBBA2953045A003340C1 /* VPNCheckerApp.swift */,
+				CBFBDBD5295482B3003340C1 /* VPNCheck.swift */,
 				CBFBDBBC2953045A003340C1 /* ContentView.swift */,
+				CBFBDBD129548278003340C1 /* ProtocolDetailView.swift */,
+				CBFBDBD32954829B003340C1 /* VPNListView.swift */,
+				CBFBDBCF29548138003340C1 /* ActivityView.swift */,
+				CBFBDBCB295321CA003340C1 /* Defaults+Keys.swift */,
 				CBFBDBBE2953045C003340C1 /* Assets.xcassets */,
 				CBFBDBC02953045C003340C1 /* Preview Content */,
 			);
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = VPNChecker;
+			packageProductDependencies = (
+				CBFBDBC9295321C0003340C1 /* Defaults */,
+			);
 			productName = VPNChecker;
 			productReference = CBFBDBB72953045A003340C1 /* VPNChecker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = CBFBDBAE2953045A003340C1;
+			packageReferences = (
+				CBFBDBC8295321C0003340C1 /* XCRemoteSwiftPackageReference "Defaults" */,
+			);
 			productRefGroup = CBFBDBB82953045A003340C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFBDBCC295321CA003340C1 /* Defaults+Keys.swift in Sources */,
+				CBFBDBD029548138003340C1 /* ActivityView.swift in Sources */,
+				CBFBDBD229548278003340C1 /* ProtocolDetailView.swift in Sources */,
 				CBFBDBBD2953045A003340C1 /* ContentView.swift in Sources */,
 				CBFBDBBB2953045A003340C1 /* VPNCheckerApp.swift in Sources */,
+				CBFBDBD6295482B3003340C1 /* VPNCheck.swift in Sources */,
+				CBFBDBD42954829B003340C1 /* VPNListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBFBDBC8295321C0003340C1 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBFBDBC9295321C0003340C1 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBFBDBC8295321C0003340C1 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CBFBDBAF2953045A003340C1 /* Project object */;
 }
