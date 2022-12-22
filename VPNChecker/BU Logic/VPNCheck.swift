@@ -2,7 +2,7 @@
 //  VPNCheck.swift
 //  VPNChecker
 //
-//  Created by 16Root19 on 22/12/2022.
+//  Created by Abdullah Alhaider on 22/12/2022.
 //
 
 import Foundation
